@@ -16,7 +16,13 @@ cin>>a[i][j];
 }    
 }    
 cout<<"enter the second matrix element=\n";    
-
+for(i=0;i<r;i++)    
+{    
+for(j=0;j<c;j++)    
+{    
+cin>>b[i][j];    
+}    
+}    
 cout<<"multiply of the matrix=\n";    
 for(i=0;i<r;i++)    
 {    
